@@ -1,6 +1,4 @@
-# APL3_221B309
-PROGRAMS FOR ADVANCED PROGRAMMING LANGUAGE
-this line is just for checking
+
 class Juet {
     private String name; 
   private int age;
