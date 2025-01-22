@@ -1,28 +1,24 @@
-class Mother 
-{
-    int x;
-
-    
+class Mother {
     void show() {
-        System.out.println("Value of x: " + x);
+        System.out.println("Hello World");
     }
 }
 
+
 class Child extends Mother {
-   
+    @Override
+    void show() {
+        System.out.println("Hello JUET");
+    }
 }
 
 
-class q1 {
+public class Overriding {
     public static void main(String[] args) {
-       
-        Mother m = new Mother();
-        m.x = 10; 
-        m.show(); 
+        Mother obj1 = new Mother();
+        obj1.show(); 
 
-       
-        Child ch = new Child();
-        ch.x = 20; 
-        ch.show(); 
+        Child obj2 = new Child();
+        obj2.show(); 
     }
 }
