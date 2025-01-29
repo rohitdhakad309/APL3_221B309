@@ -36,9 +36,14 @@ class Voice{
             animal.hear();
         }
      }
+     Void templateMethod(){
+        preparevoice();
+        hear();
+     }
 }
 
 public class Main {
+    
     public static void Main(String[] args){
     Voice voice = new Voice();
     voice.templateMethod();
